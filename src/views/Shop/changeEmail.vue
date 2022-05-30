@@ -95,7 +95,7 @@ import { testEmail } from "@/api/api";
                         {
                             this.userid = window.localStorage.getItem('userid');
                             let dataRequest3 = {
-                                id:this.userid,
+                                userId:this.userid,
                                 email:this.email
                             }
                             changeUser(dataRequest3).then((res=>{
